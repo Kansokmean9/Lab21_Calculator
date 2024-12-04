@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript simple calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="Calculator">
+        <h2 class="title">Calculator</h2>
+        <form action="">
+            <label for="">Fisrt Number :</label>
+            <input type="text" id="num1"> <br><br>
+            <label for="">Second Number :</label>
+            <input type="text" id="num2"><br><br>
+            <span style="color: green;">Result: </span><span id="result">0</span><br>
+            <br>
+            <input class="btnCal" type="button" onclick="mySum()" value="Sum">
+            <input class="btnCal" type="button" onclick="mySub()" value="Sub">
+            <input class="btnCal" type="button" onclick="myMul()" value="Mul">
+            <input class="btnCal" type="button" onclick="myDevide()" value="Divide">
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

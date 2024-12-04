@@ -1,0 +1,27 @@
+    .title {
+        margin-top: 0;
+        text-transform: uppercase;
+    }
+    #Calculator {
+        background-color: rgb(247, 247, 247);
+        border-radius: 10px;
+        width: 320px;
+        margin: auto;
+        margin-top: 50px;
+        padding: 50px 100px;
+        box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+    }
+    input {
+        padding: 7px 15px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+    .btnCal {
+        border: none;
+        background-color: #d2d2d2;
+        transition: 0.3s;
+    }
+    .btnCal:hover {
+        background-color: green;
+        color: white;
+    }
